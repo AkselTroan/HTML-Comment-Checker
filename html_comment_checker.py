@@ -41,7 +41,7 @@ class bcolors:
 
 def main():
     if len(sys.argv) != 2:
-        print(bcolors.FAIL + 'Usage: htmlCommentChecker.py websites.txt' + bcolors.ENDC)
+        print(bcolors.FAIL + 'Usage: python3 html_comment_checker.py websites.txt' + bcolors.ENDC)
         exit()
 
     f = open(sys.argv[1], "r")
